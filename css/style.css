@@ -21,7 +21,7 @@ Un comentario en css:
    h2{
     border-bottom: 3px double black;
     margin: 0 0 20px; 
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: Arial, Helvetica, sans-serif; /* Mover esto aquí */   
 }
   
     .equipo{
@@ -51,30 +51,30 @@ Un comentario en css:
     }
  
     .footer {
-        display: flex; 
-        align-items: center; 
-        justify-content: space-between; 
-        background-color: #c5a694; 
-        padding: 20px 20px;
-        position: relative; 
+        display: flex; /* Cambia a flexbox para organizar los elementos */
+        align-items: center; /* Alinea verticalmente el contenido */
+        justify-content: space-between; /* Espacio entre las redes sociales y el copyright */
+        background-color: #c5a694; /* Color de fondo opcional */
+        padding: 20px 20px; /* Espaciado arriba y abajo */
+        position: relative; /* Cambia a relative para evitar problemas de posicionamiento */
         bottom: 0;
-        width: 100%; 
+        width: 100%; /* Asegura que ocupe todo el ancho */
     }
     
     .redes-sociales {
-        display: flex; 
-        align-items: center; 
+        display: flex; /* Usar flexbox para los enlaces de redes sociales */
+        align-items: center; /* Centra las redes sociales verticalmente */
     }
     
     .redes-sociales img {
-        margin-right: 5px; 
+        margin-right: 5px; /* Espaciado entre las imágenes y los enlaces */
     }
     
     .copyright {
-        flex-grow: 1; 
-        text-align: center; 
-        margin: 0; 
-        color: rgb(7, 61, 7); 
+        flex-grow: 1; /* Permite que el copyright use el espacio disponible */
+        text-align: center; /* Centra el texto */
+        margin: 0; /* Elimina márgenes por defecto */
+        color: rgb(7, 61, 7); /* Color del texto de copyright */
     }  
 }
   
@@ -91,80 +91,80 @@ h3 { /*Sub-titulo "Contactos"*/
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    text-align: left; 
+    text-align: left; /* Alineado a la izquierda */
     font-size: 22px;
 }
 
 .main-content {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: flex-start; 
-    margin: 20px;
+    display: flex; /* Usar flexbox para alinear el contenido */
+    justify-content: space-between; /* Espacio entre el título y el formulario */
+    align-items: flex-start; /* Alinear verticalmente al inicio */
+    margin: 20px; /* Espaciado general */
 }
 
 .contact-form {
     display: flex;
-    flex-direction: column; 
-    width: 400px; 
-    padding: 20px; 
-    background-color: #fff; 
-    border-radius: 5px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    flex-direction: column; /* Alinear los elementos en columna */
+    width: 400px; /* Ajusta el ancho según lo necesites */
+    padding: 20px; /* Espaciado interno */
+    background-color: #fff; /* Fondo blanco para el formulario */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera para destacar */
 }
 
 .contact-form label {
-    margin-top: 10px; 
+    margin-top: 10px; /* Espacio entre etiquetas */
 }
 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-    width: 100%; 
-    padding: 10px; 
-    margin-top: 5px; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 10px; /* Espaciado interno */
+    margin-top: 5px; /* Espacio entre el label y el input */
+    border: 1px solid #ccc; /* Borde ligero */
+    border-radius: 5px; /* Bordes redondeados */
 }
 
 .contact-form input[type="submit"] {
-    margin-top: 15px; 
-    background-color: #c5a694; 
-    color: white; 
-    border: none; 
-    padding: 10px; 
-    cursor: pointer; 
+    margin-top: 15px; /* Espacio encima del botón */
+    background-color: #c5a694; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
 }
 
 .contact-form input[type="submit"]:hover {
-    background-color: #a68b7d; 
+    background-color: #a68b7d; /* Color del botón al pasar el ratón */
 }
 
 /* Ajustes para el footer */
 .footer {
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
-    background-color: #c5a694; 
-    padding: 20px 20px; 
-    position: relative; 
+    display: flex; /* Cambia a flexbox para organizar los elementos */
+    align-items: center; /* Alinea verticalmente el contenido */
+    justify-content: space-between; /* Espacio entre las redes sociales y el copyright */
+    background-color: #c5a694; /* Color de fondo opcional */
+    padding: 20px 20px; /* Espaciado arriba y abajo */
+    position: relative; /* Cambia a relative para evitar problemas de posicionamiento */
     bottom: 0;
-    width: 100%; 
+    width: 100%; /* Asegura que ocupe todo el ancho */
 }
 
 .redes-sociales {
-    display: flex; 
-    align-items: center; 
+    display: flex; /* Usar flexbox para los enlaces de redes sociales */
+    align-items: center; /* Centra las redes sociales verticalmente */
 }
 
 .redes-sociales img {
-    margin-right: 5px; 
+    margin-right: 5px; /* Espaciado entre las imágenes y los enlaces */
 }
 
 .copyright {
-    flex-grow: 1; 
-    text-align: center; 
-    margin: 0; 
-    color: rgb(7, 61, 7); 
+    flex-grow: 1; /* Permite que el copyright use el espacio disponible */
+    text-align: center; /* Centra el texto */
+    margin: 0; /* Elimina márgenes por defecto */
+    color: rgb(7, 61, 7); /* Color del texto de copyright */
 
 }
     
@@ -203,30 +203,30 @@ h3 { /*Sub-titulo "Contactos"*/
    }
   
    .footer {
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
-    background-color: #c5a694; 
-    padding: 20px 20px; 
-    position: relative; 
+    display: flex; /* Cambia a flexbox para organizar los elementos */
+    align-items: center; /* Alinea verticalmente el contenido */
+    justify-content: space-between; /* Espacio entre las redes sociales y el copyright */
+    background-color: #c5a694; /* Color de fondo opcional */
+    padding: 20px 20px; /* Espaciado arriba y abajo */
+    position: relative; /* Cambia a relative para evitar problemas de posicionamiento */
     bottom: 0;
-    width: 100%; 
+    width: 100%; /* Asegura que ocupe todo el ancho */
 }
 
 .redes-sociales {
-    display: flex; 
-    align-items: center;
+    display: flex; /* Usar flexbox para los enlaces de redes sociales */
+    align-items: center; /* Centra las redes sociales verticalmente */
 }
 
 .redes-sociales img {
-    margin-right: 5px; 
+    margin-right: 5px; /* Espaciado entre las imágenes y los enlaces */
 }
 
 .copyright {
-    flex-grow: 1; 
-    text-align: center; 
-    margin: 0; 
-    color: rgb(7, 61, 7); 
+    flex-grow: 1; /* Permite que el copyright use el espacio disponible */
+    text-align: center; /* Centra el texto */
+    margin: 0; /* Elimina márgenes por defecto */
+    color: rgb(7, 61, 7); /* Color del texto de copyright */
 }
 }
 
@@ -260,46 +260,51 @@ h3 { /*Sub-titulo "Contactos"*/
          }
     }
 
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
-    background-color: #c5a694;
-    padding: 20px 0; 
-    position: relative; 
+    display: flex; /* Cambia a flexbox para organizar los elementos */
+    flex-direction: column; /* Coloca los elementos en una columna */
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: center; /* Alinea verticalmente el contenido */
+    background-color: #c5a694; /* Color de fondo opcional */
+    padding: 20px 0; /* Espaciado arriba y abajo */
+    position: relative; /* Cambia a relative para evitar problemas de posicionamiento */
     bottom: 0;
-    width: 100%; 
+    width: 100%; /* Asegura que ocupe todo el ancho */
 
     .footer {
-        display: flex; 
-        align-items: center; 
-        justify-content: space-between; 
-        background-color: #c5a694; 
-        padding: 20px 20px;
-        position: relative; 
+        display: flex; /* Cambia a flexbox para organizar los elementos */
+        align-items: center; /* Alinea verticalmente el contenido */
+        justify-content: space-between; /* Espacio entre las redes sociales y el copyright */
+        background-color: #c5a694; /* Color de fondo opcional */
+        padding: 20px 20px; /* Espaciado arriba y abajo */
+        position: relative; /* Cambia a relative para evitar problemas de posicionamiento */
         bottom: 0;
-        width: 100%; 
+        width: 100%; /* Asegura que ocupe todo el ancho */
     }
     
     .redes-sociales {
-        display: flex; 
-        align-items: center; 
+        display: flex; /* Usar flexbox para los enlaces de redes sociales */
+        align-items: center; /* Centra las redes sociales verticalmente */
     }
     
     .redes-sociales img {
-        margin-right: 5px; /
+        margin-right: 5px; /* Espaciado entre las imágenes y los enlaces */
     }
     
     .copyright {
-        flex-grow: 1; 
-        text-align: center; 
-        margin: 0; 
-        color: rgb(7, 61, 7); 
+        flex-grow: 1; /* Permite que el copyright use el espacio disponible */
+        text-align: center; /* Centra el texto */
+        margin: 0; /* Elimina márgenes por defecto */
+        color: rgb(7, 61, 7); /* Color del texto de copyright */
 }  
-   
-}
+   }
 
-.Color-5{
+
+
+
+
+
+
+   .Color-5{
     
     background-color: #c5a694 ;
 
@@ -339,32 +344,32 @@ h3 { /*Sub-titulo "Contactos"*/
         color: rgb(7, 61, 7);
         text-align: left;
         }
-
+        
     .footer {
-        display: flex; 
-        align-items: center; 
-        justify-content: space-between; 
-        background-color: #c5a694;
-        padding: 20px 20px; 
-        position: relative; 
+        display: flex; /* Cambia a flexbox para organizar los elementos */
+        align-items: center; /* Alinea verticalmente el contenido */
+        justify-content: space-between; /* Espacio entre las redes sociales y el copyright */
+        background-color: #c5a694; /* Color de fondo opcional */
+        padding: 20px 20px; /* Espaciado arriba y abajo */
+        position: relative; /* Cambia a relative para evitar problemas de posicionamiento */
         bottom: 0;
-        width: 100%; 
+        width: 100%; /* Asegura que ocupe todo el ancho */
     }
     
     .redes-sociales {
-        display: flex; 
-        align-items: center; 
+        display: flex; /* Usar flexbox para los enlaces de redes sociales */
+        align-items: center; /* Centra las redes sociales verticalmente */
     }
     
     .redes-sociales img {
-        margin-right: 5px;
+        margin-right: 5px; /* Espaciado entre las imágenes y los enlaces */
     }
     
     .copyright {
-        flex-grow: 1; 
-        text-align: center; 
-        margin: 0;
-        color: rgb(7, 61, 7); 
+        flex-grow: 1; /* Permite que el copyright use el espacio disponible */
+        text-align: center; /* Centra el texto */
+        margin: 0; /* Elimina márgenes por defecto */
+        color: rgb(7, 61, 7); /* Color del texto de copyright */
     }
 }
 
